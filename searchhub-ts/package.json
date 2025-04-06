@@ -1,0 +1,19 @@
+{
+  "name": "searchhub-client",
+  "version": "1.0.0",
+  "description": "Client API SearchHub (https://api.searchhub.ru) pour Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Ton blaze",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
