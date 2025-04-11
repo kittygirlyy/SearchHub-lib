@@ -32,39 +32,4 @@
 
 ---
 
-## 🚀 Getting Started
-
-### 📦 Add to your Cargo.toml:
-
-```toml
-[dependencies]
-searchhub-lib = "0.1.0"
-```
-
-### 🌸 Quick Rust example
-
-Simply wave your Rust wand ✨:
-
-```rust
-use searchhub_lib::search_query;
-
-fn main() {
-    let api_key = "your-princess-key✨";
-    let query = "cute anime server";
-
-    match search_query(query, api_key) {
-        Ok(results) => {
-            println!("{:#?}", results);
-            for (key, entry) in results.answer {
-                println!("🎀 License: {}", entry.license);
-                println!("✨ Info: {:?}", entry);
-            }
-        }
-        Err(e) => eprintln!("😿 Error: {:?}", e),
-    }
-}
-```
-
----
-
 💖 **Happy magical searching!**
